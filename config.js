@@ -23,7 +23,8 @@ DATABASE_URL =
 DEBUG =
   process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG)
 
-module.exports = {sanjoy123
+module.exports = {
+    PASSWORD: 'sanjoy123',
   VERSION: "v1.2.8",
   SESSION:
     process.env.ASENA_SESSION === undefined ? "" : process.env.ASENA_SESSION,
